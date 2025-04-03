@@ -78,9 +78,9 @@ Para instalar paquetes de forma individual se ejecuta lo siguiente:
 pip install nombre_de_paquete
 ```
 
-Este método puede resultar en errores de compatibilidad entre distintas versiones, los cuales no siempre reultan sencillos o inntuitivos de resolver.
+Este método puede resultar en errores de compatibilidad entre distintas versiones, los cuales no siempre reultan sencillos o intuitivos de resolver.
 
-La libreria `pip-tools` resulta útil para instalar paquetes y evitar problemas de compatibilidad entre versiones.
+El paquete `pip-tools` resulta útil para instalar paquetes y evitar problemas de compatibilidad entre versiones.
 
 ### 🛠️ Utilizando el paquete pip-tools
 
@@ -104,13 +104,13 @@ nombre_paquete_3==2.7.3
 nombre_paquete_n
 ```
 
-Luego se compila el archivo lo cual resulta en un archivo `requirements.txt`
+Luego se compila el archivo con los requerimientos, lo cual le indica al sistema que se necesita instalar. Esto resulta en un archivo `requirements.txt`
 
 ```bash
 pip-compile requirements.in
 ```
 
-Tras compilar hay sincronizar el entorno:
+Tras compilar, hay que sincronizar el entorno. Esto realiza la instalación de los paquetes:
 
 ```bash
 pip-sync
