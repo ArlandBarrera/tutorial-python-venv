@@ -6,6 +6,23 @@ Tutorial sobre como crear un entorno virtual de python e instalar paquetes en el
 
 ![Code](code.png)
 
+La estructura de la carpeta del proyecto es parecida a la siguiente:
+
+```
+proyecto
+├── .venv
+│   ├── include
+│   ├── lib
+│   ├── Scripts
+│   │   ├── activate.bat
+│   │   ├── Activate.ps1
+│   │   └── deactivate.bat
+│   └── pyvenv.cfg
+├── archivo_del_proyecto.py
+├── requirements.in
+└── requirements.txt
+```
+
 ## ⚡️ Requerimientos
 
 - Tener **python** instalado en el sistema.
